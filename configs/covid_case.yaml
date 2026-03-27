@@ -1,0 +1,26 @@
+﻿data_csv: data/hubei_covid_cases_china_spatiotemporal.csv
+covariate_columns: []
+
+si_mean: 3.0
+si_std: 1.5
+si_max_lag: 20
+
+sigma_rw: 0.15
+sigma_beta: 1.0
+prior_sigma2_alpha: 2.0
+prior_sigma2_beta: 0.02
+
+init_epiestim_a0: 2.0
+init_epiestim_b0: 2.0
+init_window: 7
+
+n_iter: 3000
+burn_in: 1000
+thin: 2
+step_rt: 0.07
+step_beta: 0.04
+n_chains: 2
+
+alpha: 0.1
+mcmc_seed: 42
+
