@@ -1,8 +1,8 @@
 ﻿T: 120
 scenarios: [stable, step, exp_decay]
 
-si_mean: 3.0
-si_std: 1.5
+si_mean: 5.0
+si_std: 1.9
 si_max_lag: 20
 
 sigma_rw: 0.15
@@ -24,3 +24,4 @@ n_chains: 4
 alpha: 0.1
 data_seed: 123
 mcmc_seed: 42
+

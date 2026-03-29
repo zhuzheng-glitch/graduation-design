@@ -1,8 +1,8 @@
-﻿data_csv: data/hubei_covid_cases_china_spatiotemporal.csv
+﻿data_csv: ../data/hubei_daily_covid_cases_20200122_20200430.csv
 covariate_columns: []
 
-si_mean: 3.0
-si_std: 1.5
+si_mean: 5.0
+si_std: 1.9
 si_max_lag: 20
 
 sigma_rw: 0.15
